@@ -4,6 +4,16 @@ A novel algorithmic trading model CNN-TA using a 2-D convolutional neural networ
 ## CNN-TA
 "Computational intelligence techniques for financial trading systems have always been quite popular. In the last decade, deep learning models start getting more attention, especially within the image processing community. In this study, we propose a novel algorithmic trading model CNN-TA using a 2-D convolutional neural network based on image processing properties. In order to convert financial time series into 2-D images, 15 different technical indicators each with different parameter selections are utilized. Each indicator instance generates data for a 15 day period. As a result, 15 × 15 sized 2-D images are constructed. Each image is then labeled as Buy, Sell or Hold depending on the hills and valleys of the original time series. The results indicate that when compared with the Buy & Hold Strategy and other common trading systems over a long out-of-sample period, the trained model provides better results for stocks and ETFs."
 
+## Method: 
+![phaseMethod](https://user-images.githubusercontent.com/10358317/65412453-f050d280-ddf7-11e9-8782-66a7e863d53e.jpg)
+
+## Generated Images:
+![figureBuySelHold](https://user-images.githubusercontent.com/10358317/65412464-f5ae1d00-ddf7-11e9-85b2-98651104775b.jpg)
+
+## Sample Result:
+![dow30Capital](https://user-images.githubusercontent.com/10358317/65412466-f777e080-ddf7-11e9-9d02-e17d86c12787.jpg)
+
+
 ## Phases in the algorithm:
 
 - Phase0.java: Reversing files downloaded from finance.yahoo (finance.yahoo updated it, it is no longer needed)
@@ -17,6 +27,8 @@ There are 1-7 folders in the Data folder. Each represents the following technica
 5 years train, 1-year test results were obtained. In the last 15 years, 5 years of the train, 1 year of the test is done and the latest updated data with the progress of the CNN is being trained from scratch. The details of chapter 8 of the thesis are available (pp. 97-117). Too many tests were performed with ETFs and 30 stocks (about 600 tests).
 
 Code is written in 2018 May. It is also needed to optimize. It will be recoded with python.
+
+**Details in the paper**
 
 **ResearchGate:** https://www.researchgate.net/publication/324802031_Algorithmic_Financial_Trading_with_Deep_Convolutional_Neural_Networks_Time_Series_to_Image_Conversion_Approach?_sg=lP2iLAO11ryca0WKXwfb3Rr5_QUMfPsB4KHboCZHl_PqK4vRtG9Rowal9AFHJYReSyfdC1NvQserRn_qen1tVF8iRj9tALFEU2BjBx46.4b4mXN3W2n61AamqR8Hbo6tQgh7P6UyvIvYoz5KvOyCOSftny0LSS42BDeyqqEnRzLvY-TDOyzdgWJ0GcTf1RA
 
