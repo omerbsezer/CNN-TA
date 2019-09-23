@@ -17,3 +17,23 @@ There are 1-7 folders in the Data folder. Each represents the following technica
 5 years train, 1-year test results were obtained. In the last 15 years, 5 years of the train, 1 year of the test is done and the latest updated data with the progress of the CNN is being trained from scratch. The details of chapter 8 of the thesis are available (pp. 97-117). Too many tests were performed with ETFs and 30 stocks (about 600 tests).
 
 Code is written in 2018 May. It is also needed to optimize. It will be recoded with python.
+
+**ResearchGate:** https://www.researchgate.net/publication/324802031_Algorithmic_Financial_Trading_with_Deep_Convolutional_Neural_Networks_Time_Series_to_Image_Conversion_Approach?_sg=lP2iLAO11ryca0WKXwfb3Rr5_QUMfPsB4KHboCZHl_PqK4vRtG9Rowal9AFHJYReSyfdC1NvQserRn_qen1tVF8iRj9tALFEU2BjBx46.4b4mXN3W2n61AamqR8Hbo6tQgh7P6UyvIvYoz5KvOyCOSftny0LSS42BDeyqqEnRzLvY-TDOyzdgWJ0GcTf1RA
+
+**Science Direct Link:** https://www.sciencedirect.com/science/article/pii/S1568494618302151
+
+_**Cite as:**_
+
+**Bibtex:**
+
+```
+@article{sezer2018algorithmic,
+  title={Algorithmic financial trading with deep convolutional neural networks: Time series to image conversion approach},
+  author={Sezer, Omer Berat and Ozbayoglu, Ahmet Murat},
+  journal={Applied Soft Computing},
+  volume={70},
+  pages={525--538},
+  year={2018},
+  publisher={Elsevier}
+}
+```
